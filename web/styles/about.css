@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+* ::-webkit-scrollbar{
+    display: none;
+}
+
+body {
+  background: #202020;
+  font-family: Helvetica, sans-serif;
+}
+
+li, a, button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color:aliceblue;
+    text-decoration: none;
+}
+
+header {
+    position: sticky;
+    top: 0px;
+    background-color: rgb(21, 21, 21);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5%;
+    border-radius: 0, 0, 5px, 5px;
+}
+
+header img {
+    height: 40px;
+    width: 40px;
+    background-color: rgb(21, 21, 21);
+}
+
+
+header .idl {
+    display: flex;
+    align-items: center;
+}
+
+header .idl .logo{
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+
+
+.nav__links{
+    list-style: none;
+    background-color: rgb(21, 21, 21);
+}
+
+.nav__links ul{
+    display: flex;
+}
+
+.nav__links li {
+    display:inline-block;
+    
+    padding: 0px 20px;
+    background-color: rgb(21, 21, 21);}
+
+.nav__links li a {
+    display: block;
+    color:whitesmoke;
+    transition: all 0.3s ease 0s;
+    background-color: rgb(21, 21, 21);
+    outline: none;
+    text-decoration: none;
+}
+
+.nav__links li a:hover {
+    color: #b6b5b5;
+    outline: none;
+}
+
+.container{
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+
+}
+
+.container .content{
+    display: block;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 10px;
+    width: 300px;
+    height: 370px;
+    color: whitesmoke;
+    /* align-items: center; */
+    background-color: rgb(41, 41, 41);
+    /* justify-content: center; */
+}
+
+.container .content .logo img{
+    display:block;
+    padding: 10px;
+    width:160px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.container .content .infos h2{
+    padding: 10px;
+    display:block;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.container .content .infos h3{
+    padding: 10px;
+    display:block;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.container .content .socials{
+    display: flex;
+    padding: 20px;
+}
+
+.container .content .socials a{
+    display: block;
+    margin:  0  auto;
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+    width: auto;
+    transition: 0.4s;
+}
+
+.container .content .socials a:hover{
+    color: #b6b5b5;
+}
+
+
+.container .content hr{
+    display: block;
+    width: 280px;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+}
